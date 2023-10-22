@@ -19,7 +19,6 @@ class Solution:
                 mr = min(mr, nums[i])
                 i = i - 1
                 
-            print(i,j,mr,res)
             res = max(res, mr*(j - i - 1))
             
             
