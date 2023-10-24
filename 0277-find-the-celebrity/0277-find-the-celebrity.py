@@ -7,7 +7,6 @@ class Solution:
         
         res = [i for i in range(n)]
 
-        print(res)
         for i in range(n):
             j=0
             while j < len(res):
@@ -15,9 +14,7 @@ class Solution:
                     res.pop(j)
                 else:
                     j = j + 1
-                    
-        print("\n",res)
-                    
+                                        
         
         if len(res) == 1:
             x = res[0]
